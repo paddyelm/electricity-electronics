@@ -1,29 +1,10 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Udemy - Electricity & electronics - Robotics, learn by building
 
-### What is this repository for? ###
+### Notes ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* [Formulas](./notes/formulas.md)
+* [General Components](./notes/components.md)
+* [Resistors charting](./notes/resistors.md)
+* [Multimeter](./notes/Multimeter.md)
