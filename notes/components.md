@@ -10,6 +10,8 @@ Negative is marked with a flatted side next to the lead.
 * Dimple marked chips, the dimple should be on the bottom left which will represent pin one as the first most left pin. 
 For both then move counter clockwise around for each pin number.
 
+![notch and dimple illustration](./files/chipNotchDimpleLocations.jpg)
+
 ### 555 timer ###
 
 Used to allow for bursts of current, givening a delay between current depending on the added resistance and capacitor on the timer.
