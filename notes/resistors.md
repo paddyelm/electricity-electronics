@@ -1,14 +1,15 @@
-# How to read a resistors strips #
+# How to read a resistors strips
 
-## 3 - 4 band resistors ##
+## 3 - 4 band resistors
+
 On the resistance colour chart
 strip 1 & strip 2: you must take the number in the band column
 strip 3 is a multiplier, here you multiple by the multiplier band column
 strip 4 is the tolerance band, indicates how inaccurate the resistance calculation is. If there is no tolerance band, the tolerance will be 20%.
 
+![resistance colour chart](./files/PXL_20240114_143347107.jpg)
 
-
-``` 
+```
 Example
 strip 1 - brown
 strip 2 - black
@@ -38,7 +39,7 @@ orange x1000
 
 -----------------------------------
 
-example 
+example
 yellow
 purple
 red
@@ -92,10 +93,11 @@ black 0
 red x100
 gold 5%
 
-1 0 x100 5% = 1000 of 5% is 50 ohms = range 1050 - 950 ohms 
+1 0 x100 5% = 1000 of 5% is 50 ohms = range 1050 - 950 ohms
 ```
 
-## 5 band resistors ##
+## 5 band resistors
+
 These are persision resistors.
 Strip1, 2 & 3: you must take the number in the band column
 Strip 4 is a multiplier, here you multiple by the multiplier band column
@@ -115,14 +117,14 @@ Blue 6
 Grey 8
 Black 0
 Orange x1000
-Brown 1%  
+Brown 1%
 
 680 x1000 = 0.68 mega ohm 1% tolerance
 
 -----------------------------------
 
 example
-Blue 6 
+Blue 6
 Grey 8
 Black 0
 Black x1
@@ -137,7 +139,7 @@ yellow 4
 brown 1
 black 0
 brown 10
-brown 
+brown
 
 4100
 ```
