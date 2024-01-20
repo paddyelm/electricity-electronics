@@ -18,6 +18,8 @@ W = VI
 
 R = (R1\*R2)/(R1 + R2)
 
+more than two resisters in parrallel:
+
 1/Rt = 1/R1 + 1/R2 + 1/R3 .... + 1/Rn
 
 ### Resistance in series
