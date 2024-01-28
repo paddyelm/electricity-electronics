@@ -1,4 +1,4 @@
-# LED circuit
+# Static LED circuit
 
 A simple LED circuit
 

@@ -37,3 +37,8 @@ LED(Light emitting Diode)
 Telling which lead is negative can be difficult.
 The plastic flattened on one side would indicate negative.
 A shorter lead than the other also would indicate negative.
+
+## LED
+
+Is a diode
+Negative is marked with a flatted side next to the lead.

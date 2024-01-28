@@ -4,17 +4,18 @@ Udemy - Electricity & electronics - Robotics, learn by building
 
 ### index
 
-- [Formulas](./notes/formulas.md)
+#### [Formulas](./notes/formulas.md)
 
-#### Circuits
+#### [Circuits](./notes/circuits/)
 
-- [LED circuit](./notes/circuits/1-LED-circuit.md)
+- [Static LED circuit](./notes/circuits/1-LED-circuit.md)
+- [Pulsating LED Circuit](./notes/circuits/2-pulsating-LED-circuit.md)
 
-#### Components
+#### Components & Tools
 
-- [General Components](./notes/components.md)
 - [Resistors charting](./notes/resistors.md)
-- [diodes](./notes//diodes.md)
+- [diodes](./notes/diodes.md)
 - [capacitors](./notes/capacitor.md)
 - [Multimeter](./notes/Multimeter.md)
 - [breadboard](./notes/breadboards.md)
+- [Chips](./notes/Chips/index.md)
