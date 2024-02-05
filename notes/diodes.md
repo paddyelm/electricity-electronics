@@ -1,6 +1,6 @@
 # diodes
 
-Diodes are semi-conductors
+Diodes are semi-conductors, they are also known as active components(actively changing) because their resistance value can change
 
 ![Diode](./files/2024-01-20-21-18-51.png)
 
@@ -37,6 +37,9 @@ LED(Light emitting Diode)
 Telling which lead is negative can be difficult.
 The plastic flattened on one side would indicate negative.
 A shorter lead than the other also would indicate negative.
+
+Note diodes when put in incorrectly will have infinite resistance.
+When put in correctly can reach to close to zero resistance.
 
 ## LED
 
