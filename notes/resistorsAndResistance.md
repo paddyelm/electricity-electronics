@@ -1,6 +1,68 @@
-# How to read a resistors strips
+# Resistors and resistance
 
-## 3 - 4 band resistors
+## Resistors Ratings
+
+Resistors are rated in Watts.
+This kits resistors are 1/4 watt resistors.
+They directly convert the power they drop into heat.
+Which can burn out your resistor.
+
+say you have a 10 ohm resistor and a current of 0.2A.
+The voltage drop will be 10*0.2 => 2V  
+The power is W = VI => 2*0.2 => 0.4 Watts
+
+Our resistors are ratted at 0.25Watts, so this current will burn out the resistor.
+
+## Voltage dividers
+
+Some components cannot cope with a voltage higher than a specific amount.
+This is where voltage dividers come in, which are simply resistors to reduce the voltage in a circuit.
+
+Example of reducing voltage accross a circuit
+
+![](./files/2024-02-24-16-24-31.png)
+
+In this completed example above we started with a 10 volt circuit and with 3 resistors (10k 15k 2k)
+
+The example was to work out the voltage drop across resistors.
+
+Seeing that the current doesn't change through the entire circuit, ohms law is used to get the first voltage drop can be measured by each resistor and then simply added to represent the voltage drop accross all resistors.
+
+So firstly get the amount of amps of the circuit:
+
+I = V/R => 10 / 27 000 => 0.37 mA
+
+Get voltage drops by each resistor  
+R1 (voltage drop at R1) = 0.00037*10000 => 3.7v  
+R2 = 0.00037*15000 => 5.5v  
+R3 = 0.00037\*2000 => 0.74v
+
+Making the total drop between R1 + R2 = 9.2V  
+Making the total voltage drop = R1 + R2 + R3 = 9.94v
+
+Example 2:
+
+In this example we know what the battery voltage is and we know the maximum voltage the computer can handle.
+
+![](./files/2024-02-24-16-36-04.png)
+
+Therefore R1 needs to drop 15 - x = 3.3v  
+x = 15 - 3.3 => 11.7v
+
+Then to make sure the voltage is used R2 should use the remaining voltage, therefore should be 3.3v
+
+Now according to the lecturer you can put in high resitor here to work out the current.
+He opted for 10k.
+
+This makes the current I = 3.3/10000 => 0.33 mA
+
+Now you can work out the resistance of R1.
+
+R1 = 11.7/0.00033 => 35454 ohms
+
+## How to read a resistors strips
+
+### 3 - 4 band resistors
 
 On the resistance colour chart
 strip 1 & strip 2: you must take the number in the band column
@@ -96,7 +158,7 @@ gold 5%
 1 0 x100 5% = 1000 of 5% is 50 ohms = range 1050 - 950 ohms
 ```
 
-## 5 band resistors
+### 5 band resistors
 
 These are persision resistors.
 Strip1, 2 & 3: you must take the number in the band column

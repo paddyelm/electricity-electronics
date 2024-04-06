@@ -10,6 +10,7 @@ Udemy - Electricity & electronics - Robotics, learn by building
 
 - [Static LED circuit](./notes/circuits/1-LED-circuit.md)
 - [Pulsating LED Circuit](./notes/circuits/2-pulsating-LED-circuit.md)
+- [3 Mode tone generator speaker circuit](./notes/circuits/3-mode-tone-generator.md)
 
 #### Components & Tools
 
